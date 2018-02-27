@@ -1,0 +1,33 @@
+{
+    "name": "decahedron/laravel-vulcan",
+    "description": "A Sane Way to do Elasticsearch in Laravel",
+    "type": "library",
+    "require": {
+        "laravel/framework": "^5.5",
+        "elasticsearch/elasticsearch": "~5.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0",
+        "mockery/mockery": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Decahedron\\Vulcan\\": "src/",
+            "Decahedron\\Tests\\Vulcan\\": "tests/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rizqi Djamaluddin",
+            "email": "rizqi@decahedron.io"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Decahedron\\Vulcan\\VulcanServiceProvider"
+            ]
+        }
+    }
+}
