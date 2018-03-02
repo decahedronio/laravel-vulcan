@@ -19,5 +19,7 @@
         </whitelist>
     </filter>
     <php>
+        <env name="ES_TEST_INDEX" value="vulcan-test"/>
+        <env name="ES_TEST_HOST" value="localhost:9200"/>
     </php>
 </phpunit>

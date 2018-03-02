@@ -1,5 +1,5 @@
 <?php namespace Decahedron\Tests\Vulcan;
 
-class TestCase extends \PHPUnit\Framework\TestCase
+abstract class TestCase extends \PHPUnit\Framework\TestCase
 {
 }
